@@ -35,7 +35,7 @@ HNodeType * huffmanTree()
 		HuffNode[i].rchild = -1;
 	}
 	// 非叶子结点权值初始化为0
-	for(i = n - 1; i < 2 * n - 1; i++)
+	for(i = n; i < 2 * n - 1; i++)
 		HuffNode[i].weight = 0;
 	
 	for(i = 0; i < n - 1; i++)
